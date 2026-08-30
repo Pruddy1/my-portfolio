@@ -9,7 +9,8 @@ export default function ProjectArchive() {
       category: "Full-Stack Web",
       stack: ["Next.js", "React", "Node.js", "MongoDB"],
       description: "E-commerce platform build utilizing Next.js serverless architecture.",
-      link: "https://www.obiomaire.com",
+      //link: "https://www.obiomaire.com",
+      link: "https://paystackcom-5bkz.vercel.app",
     },
     {
       year: "2025",
@@ -17,7 +18,8 @@ export default function ProjectArchive() {
       category: "Recruitment Portal",
       stack: ["React", "Express", "Node.js", "MongoDB"],
       description: "Recruitment web application designed to connect job seekers with employers.",
-      link: "https://www.remotegetter.com",
+      //link: "https://www.remotegetter.com",
+      link: "https://job-web-new.vercel.app",
     },
   ];
 

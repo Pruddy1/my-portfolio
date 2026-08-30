@@ -27,7 +27,7 @@ export default function Navbar() {
             Archive
           </Link>
           <a
-            href="https://github.com"
+            href="https://github.com/Pruddy1"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-zinc-900 transition-colors"
@@ -71,7 +71,7 @@ export default function Navbar() {
             Archive
           </Link>
           <a
-            href="https://github.com"
+            href="https://github.com/Pruddy1"
             target="_blank"
             rel="noopener noreferrer"
             className="block hover:text-zinc-900 py-1"

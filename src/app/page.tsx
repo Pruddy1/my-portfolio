@@ -85,8 +85,8 @@ export default function Home() {
 
         <div className="bg-zinc-50 border border-zinc-200 rounded-lg p-6 space-y-4">
           <h3 className="font-semibold text-zinc-900">Relgil Threat Monitoring & Log Pipeline</h3>
-          <p className="text-zinc-600 text-sm leading-relaxed max-w-2xl">
-            Integrated Winston/Pino structured logging into backend API gateways, capturing failed authentication triggers, rate-limit threshold breaches, and forwarding telemetry to Kibana/Grafana dashboards for real-time SIEM rule processing.
+          <p className="text-sm text-zinc-600 leading-relaxed">
+            Integrated Winston structured logging into backend API gateways, capturing failed authentication triggers and rate-limit threshold breaches, streaming real-time event telemetry to Better Stack dashboards for incident alert routing and audit trails.
           </p>
         </div>
       </section>
