@@ -18,8 +18,8 @@ export default function RootLayout({
       <body className="antialiased bg-white text-zinc-900 selection:bg-zinc-100">
         <Navbar />
         {children}
-      </body>
-      <Footer />
+          <Footer />
+      </body>   
     </html>
   );
 }
