@@ -144,3 +144,33 @@ export default function GrcAuditCaseStudy() {
     </div>
   );
 }
+
+{/* VERIFIABLE EVIDENCE & PUBLIC SHOWCASE LINKS */}
+      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 p-4 bg-zinc-900 border border-zinc-800 rounded-lg text-xs font-mono text-zinc-300 mb-8">
+        <div className="flex items-center gap-2">
+          <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+          <span className="font-semibold text-white">Verifiable DevSecOps Artifacts</span>
+          <span className="bg-zinc-800 text-zinc-400 px-2 py-0.5 rounded text-[10px]">
+            Public Lab Repo / Core Base Private
+          </span>
+        </div>
+        
+        <div className="flex items-center gap-4">
+          <a 
+            href="https://github.com/Pruddy1/relgil-grc-audit-lab/blob/main/scripts/grc-audit.js" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-amber-400 hover:text-amber-300 underline flex items-center gap-1 font-semibold transition-colors"
+          >
+            View Engine (`grc-audit.js`) &rarr;
+          </a>
+          <a 
+            href="https://github.com/Pruddy1/relgil-grc-audit-lab/blob/main/COMPLIANCE_MATRIX.md" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-amber-400 hover:text-amber-300 underline flex items-center gap-1 font-semibold transition-colors"
+          >
+            View Raw Output (`COMPLIANCE_MATRIX.md`) &rarr;
+          </a>
+        </div>
+      </div>
