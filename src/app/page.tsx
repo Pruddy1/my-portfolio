@@ -76,7 +76,44 @@ export default function Home() {
         </div>
       </section>
 
-      {/* SECURITY LAB PREVIEW */}
+
+{/* SECURITY LAB PREVIEW */}
+<section id="security" className="space-y-6 pt-8 border-t border-zinc-200">
+  <div>
+    <h2 className="text-xl font-bold tracking-tight text-zinc-900">SOC & Security Lab</h2>
+    <p className="text-sm text-zinc-500">Practical incident detection and continuous compliance</p>
+  </div>
+
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+    {/* Existing Relgil Threat Monitoring Card */}
+    <div className="bg-zinc-50 border border-zinc-200 rounded-lg p-6 space-y-3">
+      <h3 className="font-semibold text-zinc-900">Relgil Threat Monitoring & Log Pipeline</h3>
+      <p className="text-sm text-zinc-600 leading-relaxed">
+        Integrated Winston structured logging into backend API gateways, capturing failed authentication triggers and streaming telemetry to Better Stack.
+      </p>
+      <Link href="/projects/relgil" className="inline-flex items-center gap-1 text-sm font-semibold text-zinc-900 hover:underline">
+        View Telemetry Case Study &rarr;
+      </Link>
+    </div>
+
+    {/* NEW GRC Audit Engine Card */}
+    <div className="bg-zinc-50 border border-zinc-200 rounded-lg p-6 space-y-3">
+      <h3 className="font-semibold text-zinc-900">Automated GRC & Compliance Audit CLI</h3>
+      <p className="text-sm text-zinc-600 leading-relaxed">
+        Engineered a custom static code analyzer that verifies ISO 27001 & SOC 2 security controls across API endpoints and generates compliance matrices.
+      </p>
+      <Link href="/projects/grc-audit" className="inline-flex items-center gap-1 text-sm font-semibold text-zinc-900 hover:underline">
+        View GRC Compliance Engine &rarr;
+      </Link>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+      {/* SECURITY LAB PREVIEW *
       <section id="security" className="space-y-6 pt-8 border-t border-zinc-200">
         <div>
           <h2 className="text-xl font-bold tracking-tight text-zinc-900">SOC & Security Lab</h2>
@@ -89,7 +126,7 @@ export default function Home() {
             Integrated Winston structured logging into backend API gateways, capturing failed authentication triggers and rate-limit threshold breaches, streaming real-time event telemetry to Better Stack dashboards for incident alert routing and audit trails.
           </p>
         </div>
-      </section>
+      </section>*/}
     </main>
   );
 }
