@@ -141,11 +141,8 @@ export default function GrcAuditCaseStudy() {
           </li>
         </ul>
       </section>
-    </div>
-  );
-}
 
-{/* VERIFIABLE EVIDENCE & PUBLIC SHOWCASE LINKS */}
+      {/* VERIFIABLE EVIDENCE & PUBLIC SHOWCASE LINKS */}
       <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 p-4 bg-zinc-900 border border-zinc-800 rounded-lg text-xs font-mono text-zinc-300 mb-8">
         <div className="flex items-center gap-2">
           <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
@@ -174,3 +171,8 @@ export default function GrcAuditCaseStudy() {
           </a>
         </div>
       </div>
+
+    </div>  
+  );
+}
+
