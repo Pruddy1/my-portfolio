@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Navbar from "@/components/Navbar";
 import "./globals.css";
+import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
   title: "Mary Dada — Full-Stack & Security Engineer",
@@ -18,6 +19,7 @@ export default function RootLayout({
         <Navbar />
         {children}
       </body>
+      <Footer />
     </html>
   );
 }
